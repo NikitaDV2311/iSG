@@ -102,7 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				161338FE214D6917008FF80D /* Model */,
-				161338FF214D691C008FF80D /* View */,
+				161338FF214D691C008FF80D /* Storyboards */,
 				16133900214D6920008FF80D /* Controller */,
 				161338FD214D6908008FF80D /* Application */,
 				16133903214D696D008FF80D /* ImageAssets */,
@@ -147,12 +147,12 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		161338FF214D691C008FF80D /* View */ = {
+		161338FF214D691C008FF80D /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
 				161338D3214D659D008FF80D /* Main.storyboard */,
 			);
-			path = View;
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		16133900214D6920008FF80D /* Controller */ = {
