@@ -14,6 +14,7 @@
 		161338DA214D659E008FF80D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 161338D8214D659E008FF80D /* LaunchScreen.storyboard */; };
 		161338E5214D659E008FF80D /* iSystemGuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161338E4214D659E008FF80D /* iSystemGuideTests.swift */; };
 		161338F0214D659E008FF80D /* iSystemGuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161338EF214D659E008FF80D /* iSystemGuideUITests.swift */; };
+		16133906214D72A9008FF80D /* SGConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16133905214D72A9008FF80D /* SGConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		161338EB214D659E008FF80D /* iSystemGuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSystemGuideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		161338EF214D659E008FF80D /* iSystemGuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSystemGuideUITests.swift; sourceTree = "<group>"; };
 		161338F1214D659E008FF80D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16133905214D72A9008FF80D /* SGConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				16133900214D6920008FF80D /* Controller */,
 				161338FD214D6908008FF80D /* Application */,
 				16133903214D696D008FF80D /* ImageAssets */,
+				16133904214D7277008FF80D /* Constants */,
 				161338DB214D659E008FF80D /* Info.plist */,
 			);
 			path = iSystemGuide;
@@ -179,6 +182,14 @@
 				161338D6214D659E008FF80D /* Assets.xcassets */,
 			);
 			path = ImageAssets;
+			sourceTree = "<group>";
+		};
+		16133904214D7277008FF80D /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				16133905214D72A9008FF80D /* SGConstants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				161338D2214D659D008FF80D /* ViewController.swift in Sources */,
+				16133906214D72A9008FF80D /* SGConstants.swift in Sources */,
 				161338D0214D659D008FF80D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
