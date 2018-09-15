@@ -97,11 +97,11 @@
 		161338CE214D659C008FF80D /* iSystemGuide */ = {
 			isa = PBXGroup;
 			children = (
-				161338CF214D659D008FF80D /* AppDelegate.swift */,
-				161338D1214D659D008FF80D /* ViewController.swift */,
-				161338D3214D659D008FF80D /* Main.storyboard */,
-				161338D6214D659E008FF80D /* Assets.xcassets */,
-				161338D8214D659E008FF80D /* LaunchScreen.storyboard */,
+				161338FE214D6917008FF80D /* Model */,
+				161338FF214D691C008FF80D /* View */,
+				16133900214D6920008FF80D /* Controller */,
+				161338FD214D6908008FF80D /* Application */,
+				16133903214D696D008FF80D /* ImageAssets */,
 				161338DB214D659E008FF80D /* Info.plist */,
 			);
 			path = iSystemGuide;
@@ -123,6 +123,62 @@
 				161338F1214D659E008FF80D /* Info.plist */,
 			);
 			path = iSystemGuideUITests;
+			sourceTree = "<group>";
+		};
+		161338FD214D6908008FF80D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				16133902214D695A008FF80D /* Launch */,
+				16133901214D6952008FF80D /* AppDelegate */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		161338FE214D6917008FF80D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		161338FF214D691C008FF80D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				161338D3214D659D008FF80D /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		16133900214D6920008FF80D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				161338D1214D659D008FF80D /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		16133901214D6952008FF80D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				161338CF214D659D008FF80D /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		16133902214D695A008FF80D /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				161338D8214D659E008FF80D /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		16133903214D696D008FF80D /* ImageAssets */ = {
+			isa = PBXGroup;
+			children = (
+				161338D6214D659E008FF80D /* Assets.xcassets */,
+			);
+			path = ImageAssets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
